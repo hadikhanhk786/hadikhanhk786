@@ -1,66 +1,67 @@
-# Hi, I’m Hadi Khan 👋
-**Full-Stack Software Engineer | 5+ Years Experience | React, Node.js, PostgreSQL, AWS**
+# Hi, I'm Hadi Khan 👋
 
-[![Profile views](https://komarev.com/ghpvc/?username=hadikhanhk786&color=blue)](https://github.com/hadikhanhk786)
+**Senior Node.js Backend Engineer · 6 years · Node.js · Express · NestJS · PostgreSQL · Redis · AWS**
 
----
+Senior Software Engineer at **LTIMindtree**. I build backends that stay fast and correct under load: APIs, payment flows and data pipelines.
 
-## 📍 Contact
-**Email:** [khanhadi6@gmail.com](mailto:khanhadi6@gmail.com)  
-**LinkedIn:** [linkedin.com/in/hadi-khan-55b575147](https://www.linkedin.com/in/hadi-khan-55b575147)  
-**GitHub:** [github.com/hadikhanhk786](https://github.com/hadikhanhk786)  
-**Portfolio:** [hadikhanhk786.github.io/hadi-portfolio](https://hadikhanhk786.github.io/hadi-portfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-hadikhanhk786.github.io-10b981?style=flat-square&logo=googlechrome&logoColor=white)](https://hadikhanhk786.github.io/hadi-portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-hadi--khan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hadi-khan-55b575147/)
+[![Email](https://img.shields.io/badge/Email-khanhadi6%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:khanhadi6@gmail.com)
+[![Resume](https://img.shields.io/badge/Resume-PDF-111827?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://hadikhanhk786.github.io/hadi-portfolio/Hadi_Khan_Resume.pdf)
 
 ---
 
-## 🚀 Summary
-Full-Stack Software Engineer with 5+ years of experience designing and delivering **scalable applications** using **React, Node.js, PostgreSQL, and AWS**.  
-Skilled in building **high-performance APIs**, **subscription/payment systems**, and **microservices architectures**.  
-Proven expertise in **performance tuning**, **role-based access control**, and **LLM/AI integration** (ChatGPT APIs, prompt-to-SQL automation).  
-Adept at cross-functional collaboration, mentoring, and **driving products from concept to production**.
+## About me
+
+The problems I enjoy most are the messy ones: a government API timing out at 6.2 seconds with a million records behind it, a payment webhook that has to be idempotent or someone gets charged twice, a PostgreSQL table that `EXPLAIN ANALYZE` says is doing a sequential scan on 40 million rows.
+
+| Result | How |
+|---|---|
+| **12x faster API** (6.2s → 0.5s) | Fixed N+1 queries, added composite/partial indexes, Redis caching, moved heavy work to AWS Lambda + SQS |
+| **$75M/yr on Stripe, zero incidents in 4 years** | Payment intents, idempotency keys, webhook signature verification, daily reconciliation |
+| **~40% faster PostgreSQL** | Date-range partitioning and query plan rewrites on 40M+ row tables |
+| **45+ min → under 3s** document processing | OpenAI API pipeline on Node.js/Express microservices in strict TypeScript |
 
 ---
 
-## 🛠️ Technical Skills
+## Experience
 
-**Languages:** Python, TypeScript, JavaScript (Node.js), SQL  
-**Frontend:** React.js (Redux, Context API), TailwindCSS, HTML5, CSS3, Jest, React Testing Library  
-**Backend:** Node.js, Express.js, Socket.IO, REST APIs, Microservices  
-**Databases:** PostgreSQL, MySQL  
-**Cloud/DevOps:** AWS Lambda, API Gateway, S3, Docker, CI/CD  
-**Concepts:** System Design, Scalability, Reliability, Agile, TDD  
+- **LTIMindtree**, Senior Software Engineer · Jan 2026 – present
+- **HughesSystique Corporation (HSC)**, Senior Software Engineer · Oct 2021 – Oct 2025
+- **Svayam Infoware**, Software Engineer · Jan 2020 – Oct 2021
 
----
-
-## 🎓 Education
-**B.Tech, Information Technology**  
-Shri Ramswaroop Memorial College of Engineering, Lucknow — 2020
+B.Tech, Information Technology, Shri Ramswaroop Memorial College of Engineering, Lucknow (2020)
 
 ---
 
-## 🏆 Key Achievements
-- **Stripe Payment Gateway Integration:** Implemented subscription-based billing, secure checkout, and scalable payment architecture.  
-- **Role-Based Access Control (RBAC):** Ensured feature access aligns with subscription plans, improving security and UX.  
-- **Application Performance Optimization:** Optimized database queries, scaled backend, and enhanced frontend efficiency with memoization and code-splitting.  
-- **LLM/AI Integration:** Integrated ChatGPT APIs for ticket description generation and Pydantic AI for SQL query and data visualization assistance.
+## Stack
+
+**Backend:** Node.js, Express.js, NestJS, REST APIs, microservices, event-driven architecture, WebSockets / Socket.IO  
+**Databases:** PostgreSQL (indexing, partitioning, query tuning), MySQL, Redis (caching, pub/sub, rate limiting)  
+**Cloud & infra:** AWS Lambda, SQS, API Gateway, S3, IAM, Docker, GitHub Actions, CI/CD  
+**Languages:** TypeScript, JavaScript, SQL, Python (familiar)  
+**Integrations:** Stripe, OpenAI API, JWT / OAuth2  
+**Testing:** Jest, Supertest, TDD, integration testing  
+**AI tools:** GitHub Copilot, Claude, ChatGPT
 
 ---
 
-## 📊 GitHub Stats
-![Hadi's GitHub stats](https://github-readme-stats.vercel.app/api?username=hadikhanhk786&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hadikhanhk786&layout=compact&theme=radical)
+## Projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| **[Meetron](https://hadikhanhk786.github.io/meetron-frontend/)** ([frontend](https://github.com/hadikhanhk786/meetron-frontend) · [backend](https://github.com/hadikhanhk786/meetron-backend)) | Browser video calls over WebRTC with end-to-end encryption, plus the signaling server | React, WebRTC, Node.js |
+| **[ecom-app](https://github.com/hadikhanhk786/ecom-app)** | Full-stack e-commerce: products, cart, Stripe checkout, order tracking | React, Node.js, Express, PostgreSQL, Stripe |
+| **[Live-Class](https://github.com/hadikhanhk786/Live-Class)** | Real-time virtual classroom with live chat and classroom updates | React, Node.js, Socket.IO, PostgreSQL |
+| **[hadi-portfolio](https://hadikhanhk786.github.io/hadi-portfolio/)** | My portfolio site | React, Tailwind CSS |
 
 ---
 
-## 💼 Featured Projects
-| Project | Description |
-|--------|-------------|
-| **[hadi-portfolio](https://hadikhanhk786.github.io/hadi-portfolio/)** | My personal portfolio website showcasing projects and skills |
-| **Live-Class** | Real-time online class application |
-| **-pyblog** | Blogging platform built with Python |
-| **firstapp** | Early learning project demonstrating web app fundamentals |
+## GitHub stats
 
----
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=hadikhanhk786&show_icons=true&hide_border=true&theme=github_dark)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hadikhanhk786&layout=compact&hide_border=true&theme=github_dark)
 
-## 🌐 Connect with Me
-[LinkedIn](https://www.linkedin.com/in/hadi-khan-55b575147) | [Portfolio](https://hadikhanhk786.github.io/hadi-portfolio/) | [GitHub](https://github.com/hadikhanhk786)
+![Profile views](https://komarev.com/ghpvc/?username=hadikhanhk786&color=10b981&style=flat-square)
+
+Open to backend roles and freelance work. The fastest way to reach me is [khanhadi6@gmail.com](mailto:khanhadi6@gmail.com).
